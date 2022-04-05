@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.person-photo img {
+  width: 180px;
+  border-radius: 50%;
+  padding: 20px;
+}
+.person-photo {
+  display: inline-block;
+}
+.person-data {
+  display: inline-block;
+  color: rgb(82, 189, 189);
+}
+.person-data .person-name,
+.after-name,
+.email {
+  padding-left: 30%;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+.work-experience .h3 {
+  color: rgb(82, 189, 189);
+}
+.work-experience {
+  padding-left: 30px;
+  border: 3px rgb(180, 170, 166);
+  border-style: dashed;
+  border-right: 30px;
+  border-top: 0ch;
+  border-bottom: 0ch;
+  width: 40%;
+}
+.education .h3 {
+  color: rgb(82, 189, 189);
+}
+.education {
+  border: 3px rgb(180, 170, 166);
+  border-style: dashed;
+  width: 40%;
+  border-right: 30px;
+  border-bottom: 0ch;
+  border-top: 0ch;
+  padding-left: 30px;
+  display: inline-block;
+}
+.work-experience .h3,
+.simple-h3,
+.spans,
+.project-name {
+  padding-top: 10px;
+}
